@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.911" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-03-27T19:57:40" tests="0" file="cypress/e2e/tests/TwitchLoginTests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Twitch Screen Tests" timestamp="2024-03-27T19:57:41" tests="1" time="16.890" failures="1">
+    <testcase name="Twitch Screen Tests [Desktop] Verify page structure" time="0.000" classname="[Desktop] Verify page structure">
+      <failure message="Timed out retrying after 10000ms: expected &apos;&lt;div.Layout-sc-1xcs6mc-0.ksSizV.server-message-alert&gt;&apos; to have text &apos;Não há suporte para seu navegador no momento. Utilize um navegador recomendado ou aprenda mais aqui.&apos;, but the text was &apos;O campo do nome de usuário é obrigatório.Tente novamente.&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: expected '<div.Layout-sc-1xcs6mc-0.ksSizV.server-message-alert>' to have text 'Não há suporte para seu navegador no momento. Utilize um navegador recomendado ou aprenda mais aqui.', but the text was 'O campo do nome de usuário é obrigatório.Tente novamente.'
+    at Context.eval (webpack:///./cypress/e2e/tests/TwitchLoginTests.cy.js:30:29)
+
+      + expected - actual
+
+      -'O campo do nome de usuário é obrigatório.Tente novamente.'
+      +'Não há suporte para seu navegador no momento. Utilize um navegador recomendado ou aprenda mais aqui.'
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

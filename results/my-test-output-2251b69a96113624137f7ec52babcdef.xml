@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.444" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-03-27T19:58:01" tests="0" file="cypress/e2e/tests/TwitchUserTests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Twitch Screen Tests" timestamp="2024-03-27T19:58:01" tests="1" time="13.414" failures="0">
+    <testcase name="Twitch Screen Tests [Desktop] Verify page structure" time="9.695" classname="[Desktop] Verify page structure">
+    </testcase>
+  </testsuite>
+</testsuites>
